@@ -372,13 +372,6 @@ const Calculator = () => {
       </div>
 
       <div className="content">
-        <div className="section-title">Active Stock</div>
-
-        {/* Upload Section */}
-        <div className="upload-section">
-          <div className="upload-icon">📄</div>
-          <div className="upload-text">Application Documents</div>
-        </div>
 
         <form onSubmit={handleSubmit} className="calculator-form">
           {/* Bank Selection */}
